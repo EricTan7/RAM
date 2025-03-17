@@ -1,4 +1,4 @@
-# RAM🚀: Open-Vocabulary Multi-Label Recognition through Knowledge-Constrained Optimal Transport
+# RAM: Open-Vocabulary Multi-Label Recognition through Knowledge-Constrained Optimal Transport
 
 Official implementation of the paper in CVPR 2025:
 
