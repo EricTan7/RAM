@@ -1,0 +1,15 @@
+ftfy==6.3.1
+imgaug==0.4.0
+ipdb==0.13.13
+numpy==1.25.2
+opencv_contrib_python==4.8.0.76
+opencv_python==4.8.0.76
+Pillow==9.4.0
+Pillow==11.1.0
+regex==2023.8.8
+setuptools==68.0.0
+timm==0.5.4
+torch==1.13.1
+torchvision==0.14.1
+tqdm==4.66.1
+yacs==0.1.8
