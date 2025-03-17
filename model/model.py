@@ -7,14 +7,9 @@ import clip
 from clip import clip
 from .base import BaseModel
 from .ot_solver import Sinkhorn
-import ipdb
 
 
 class RAM_Model(BaseModel):
-    """
-        Entropic KL-regularized Unbalanced Optimal Transport (EUOT)
-        SupCon Loss
-    """
     def __init__(
             self,
             cfg,
