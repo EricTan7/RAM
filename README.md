@@ -9,7 +9,7 @@ Official implementation of the paper in CVPR 2025:
 RAM is an efficient matching framework for OVMLR (Open-Vocabulary Multi-Label Recognition). To address the urgent problems in existing methods, RAM involves (1) LLA to recover regional semantics, and (2) KCOT to find precise region-to-label matching.
 
 <p align="center">
-    <img src="src/method.pdf" alt="RAM Framework" width="75%">
+    <img src="src/method.png" alt="RAM Framework" width="75%">
 </p>
 
 
