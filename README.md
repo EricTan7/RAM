@@ -1,6 +1,6 @@
 # RAM: Open-Vocabulary Multi-Label Recognition through Knowledge-Constrained Optimal Transport
 
-Official implementation of the paper in CVPR 2025:
+Official implementation of the [paper](https://arxiv.org/abs/2503.15337) in CVPR 2025:
 
 **Recover and Match: Open-Vocabulary Multi-Label Recognition through Knowledge-Constrained Optimal Transport**
 
@@ -45,3 +45,17 @@ python train.py --config_file configs/coco.yml WANDB True
 The core contribution is the OT-based matching pipeline, which we found beneficial to the OVMLR task while remaining highly efficient.
 The matching framework can be easily extended to dense prediction tasks (e.g., **semantic segmentation**). Welcome to transfer our approach to the segmentation scenarios. 
 
+If you find our work useful, please cite our paper:
+
+```
+@article{tan2025recoverandmatch,
+  title={Recover and Match: Open-Vocabulary Multi-Label Recognition through Knowledge-Constrained Optimal Transport},
+  author={Hao Tan and Zichang Tan and Jun Li and Ajian Liu and Jun Wan and Zhen Lei},
+  journal={arXiv preprint arXiv:2503.15337},
+  year={2025}
+}
+```
+
+## Acknowledgements
+
+This repo benefits from [MaPLe](https://github.com/muzairkhattak/multimodal-prompt-learning), [CLIP-Surgery](https://github.com/xmed-lab/CLIP_Surgery) and  [POT](https://github.com/PythonOT/POT). Thanks for their wonderful works.
