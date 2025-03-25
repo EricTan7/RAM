@@ -4,6 +4,8 @@ Official implementation of the [paper](https://arxiv.org/abs/2503.15337) in CVPR
 
 **Recover and Match: Open-Vocabulary Multi-Label Recognition through Knowledge-Constrained Optimal Transport**
 
+[Hao Tan](https://scholar.google.com/citations?hl=zh-CN&user=gPEjNFcAAAAJ), [Zichang Tan](https://scholar.google.com/citations?user=s29CDY8AAAAJ&hl=zh-CN&oi=ao), [Jun Li](https://bazinga699.github.io/), [Ajian Liu](https://scholar.google.com/citations?user=isWtY64AAAAJ&hl=zh-CN&oi=ao), [Jun Wan](http://www.cbsr.ia.ac.cn/users/jwan/), [Zhen Lei](http://www.cbsr.ia.ac.cn/users/zlei/)
+
 ## 📨 Introduction
 
 RAM is an efficient matching framework for OVMLR (Open-Vocabulary Multi-Label Recognition). To address the urgent problems in existing methods, RAM involves (1) LLA to recover regional semantics, and (2) KCOT to find precise region-to-label matching.
@@ -48,10 +50,10 @@ The matching framework can be easily extended to dense prediction tasks (e.g., *
 If you find our work useful, please cite our paper:
 
 ```
-@article{tan2025recoverandmatch,
+@inproceedings{tan2025recoverandmatch,
   title={Recover and Match: Open-Vocabulary Multi-Label Recognition through Knowledge-Constrained Optimal Transport},
-  author={Hao Tan and Zichang Tan and Jun Li and Ajian Liu and Jun Wan and Zhen Lei},
-  journal={arXiv preprint arXiv:2503.15337},
+  author={Hao Tan, Zichang Tan, Jun Li, Ajian Liu, Jun Wan, Zhen Lei},
+  booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition},
   year={2025}
 }
 ```
